@@ -21,9 +21,12 @@ nav a {
 nav :hover {
   opacity: 0.5;
 }
-
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .animation {
-  background: url("background1.jpg");
+  background: url("assets/background1.jpg");
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -169,8 +172,8 @@ nav :hover {
   }
 }
 .projects {
-  background: url("background2.jpg");
-  height: 210vh;
+  background: url("assets/background2.jpg");
+  height: 250vh;
   color: white;
   box-sizing: border-box;
   /* Create the parallax scrolling effect */
@@ -189,7 +192,7 @@ nav :hover {
 }
 /* Remove extra left and right margins, due to padding */
 .row {
-  margin: 40px 0px 150px 0px;
+  margin: 40px 0px 70px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -209,12 +212,12 @@ nav :hover {
   width: 300px;
   height: 300px;
 }
-.card :hover {
+/* .card :hover {
   opacity: 0.5;
   transform: scale(1.2);
-}
+} */
 .certifications {
-  background: url("background3.jpg");
+  background: url("assets/background3.jpg");
   height: 100vh;
   color: white;
   box-sizing: border-box;
@@ -226,6 +229,7 @@ nav :hover {
   position: relative;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .certificate {
@@ -243,11 +247,7 @@ nav :hover {
   height: 200px;
 }
 
-/* On mouse-over, add a deeper shadow */
-.certificate :hover {
-  opacity: 0.5;
-  transform: scale(1.2);
-}
+
 .certifications {
   height: 230vh;
 }

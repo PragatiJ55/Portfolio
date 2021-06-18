@@ -23,10 +23,12 @@ const flightPath = {
   
   const scene = new ScrollMagic.Scene({
     triggerElement: ".animation",
-    duration: 2000,
+    duration: 1000,
     triggerHook: 0,
   })
     .setTween(tween)
     .setPin(".animation")
     .addTo(controller);
+
+
   
